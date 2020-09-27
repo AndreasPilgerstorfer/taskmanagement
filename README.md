@@ -1,2 +1,4 @@
 # taskmanagement
-Taskmanagement-System
+
+In this project I have created a taskmanagement-system using object oriented JavaScript/jQuery, JSON, HTML and CSS. The user has the opportunity to create tasks, which consist of a title, a description and a responsible person. By clicking the add button, a new maintask gets created. The user is able to delete a certain task by clicking on the delete button. Every task has two different modes open and closed, if the task is open the user can add subtasks to the maintask, by selecting the task by clicking on it and then clicking on the "Add Subtask" button. If the maintask is closed, it is not possible to add a subtask. The user can also filter the tasklist by using the buttons "Show open tasks" and "Show all". It is also possible to edit an existing task. in order to do that, the user has to select a task, insert the new values in the input fields above and then click on the edit button.
+
