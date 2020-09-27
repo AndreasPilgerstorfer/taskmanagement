@@ -1,0 +1,10 @@
+{
+  "name" : "Persons",
+  "elements" :[
+    {"firstname":"Max", "lastname":"Mustermann"},
+    {"firstname":"Andreas", "lastname":"Pilgerstorfer"},
+    {"firstname":"David", "lastname":"Alaba"},
+    {"firstname":"Alphonso", "lastname":"Davies"}
+
+  ]
+}

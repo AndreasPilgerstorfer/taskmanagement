@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aufgaben Liste 7</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<span id ="hstyle"><h1>Aufgabenliste</h1></span>
+
+<div id = "container">
+
+    <form name="form1" method="post" action="#" id="form1">
+
+        <div id ="main">
+
+            <label for="task" id ="styletask">Task</label>
+            <input type ="text" name="task" id = "task" placeholder="Task">
+
+            <label for="pers" id="stylepers">Person</label>
+            <select id="pers">
+            </select>
+            <br>
+            <br>
+            <label for ="description">Beschreibung</label>
+            <textarea id="description" name="descr" placeholder="Beschreibung"></textarea>
+            <br>
+            <br>
+            <input type="button" class="btn" id ="btnadd" value="Hinzufügen">
+            <input type="button" class="btn" id ="btnsub" value="Subtask hinzufügen">
+            <input type="button" class="btn" id ="btnshowOpen" value="Offene anzeigen">
+            <input type="button" class="btn" id ="btnshowAll" value="Alle anzeigen">
+            <input type="button" class="btn" id ="btnEdit" value="Bearbeiten">
+
+
+            <hr>
+
+        </div>
+
+    </form>
+
+</div>
+
+<form name ="form2" method="post" action="#" id ="form2">
+
+    <div id="textarea"></div>
+
+</form>
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="objectTask.js"></script>
+<script type="text/javascript" src="objectPerson.js"></script>
+<script type="text/javascript" src="form.js"></script>
+
+
+</body>
+</html>

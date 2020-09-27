@@ -1,0 +1,134 @@
+/* Design des Formulas, dass im Browser sofort ersichtlich ist */
+body{
+    font-family: Arial, sans-serif;
+
+}
+#hstyle h1{
+    text-align: center;
+}
+
+#form1 {
+    background-color: #eee;
+    width: auto;
+    padding: 20px;
+    border: 1px solid #8c8c8c;
+}
+
+input[type=text] {
+    width: 35.5%;
+    padding: 10px 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#pers{
+    margin-left: 2%;
+}
+
+#stylepers{
+    margin-left: 27%;
+}
+
+#styletask{
+    margin-right: 56px;
+}
+
+textarea {
+    vertical-align: top;
+    width: 80%;
+    height: 100px;
+    padding: 10px 10px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    resize: none;
+    outline: none;
+}
+
+/* Select - Design */
+select {
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+    outline: none;
+    color: #74646e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+
+
+/* Button- Design */
+.btn{
+    box-shadow:inset 0px 5px 0px 0px #ffffff;
+    background-color:#ffffff;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    outline-color: #232323;
+}
+
+#btnadd{
+    margin-left: 8%;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Abstand von RadioButton für die Beschriftung */
+.Sp{
+    margin-left: 10px;
+}
+
+/* Abstand vom Task */
+.Sp2{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+/* Abstand von der Beschreibung */
+.Sp4{
+    margin-left: 24px;
+}
+
+/* Design für Task = open */
+.open{
+    background-color: white;
+}
+
+/* Design für Task = done */
+.done{
+    background-color: #919191;
+}
+
+
+.delete{
+    float: right;
+}
+
+.selected{
+    background-color: red;
+}
+
+.Sub2{
+    margin-left: 100px;
+}
+
+.Sub3{
+    margin-left: 200px;
+}
+
+.hide{
+    display: none;
+}
+
+
